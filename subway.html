@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert through js</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: rgb(121, 31, 31);
+
+        }
+
+        p {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+
+        #increment {
+            color: wheat;
+            background-color: red;
+            text-align: center;
+            margin-inline: 53px;
+            margin-top: 41px;
+            padding-top: 22px;
+            padding-bottom: 15px;
+            margin-left: 47vw;
+            border-radius: 10px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #save {
+            color: wheat;
+            background-color: rgb(94, 255, 0);
+            text-align: center;
+            margin-inline: 53px;
+            margin-top: 41px;
+            padding-top: 22px;
+            padding-bottom: 15px;
+            margin-left: 47vw;
+            border-radius: 10px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            width: 95px;
+        }
+
+        body {
+            background-color: aliceblue;
+    </style>
+</head>
+
+<body>
+    <div class="pass">
+        <h1>Welcome back again</h1>
+        <p>Hay ! how are you</p>
+        <h1 id="count-el">0</h1>
+        <button type="button" id="increment" onclick=increment()>INCREMENT</button>
+        <button type="button" id="save" onclick=save()>SAVE</button><br>
+        <br>
+        <p id="pre">Previou value is: </p>
+     </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
